@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="icon" href="favicon1.ico.png" type="image/x-icon">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Explora la historia, estructura, servicios, seguridad y tecnologías emergentes de Internet." />
+  <meta name="keywords" content="Internet, historia del internet, servicios de internet, seguridad, tecnología emergente" />
+  <meta name="author" content="Maritzel Calleja Mosso" />
+  <title>Fundamentos De Tecnologías De La Información</title>
+  <link rel="stylesheet" href="tics.css" />
+  <style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  h1, h2 {
+    color: #2c3e50;
+  }
+  a {
+    color: #2980b9;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  ul {
+    margin-left: 20px;
+  }
+
+  /* Carrusel */
+  .carousel {
+    position:relative;
+    max-width: 600px;
+    margin: 15px auto;
+    border-radius: 8px;
+    overflow:hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    background: #fefefe;
+  }
+  .carousel-slide {
+    display:none;
+    padding: 20px;
+    text-align: left;
+  }
+  .carousel-slide.active {
+    display: block;
+  }
+  .carousel-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .carousel-btn {
+    background-color: #2980b9;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    margin: 0 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .carousel-btn:hover {
+    background-color: #1f618d;
+  }
+</style>
+</head>
+
+<body>
+
+  <!-- Solo imagen de fondo -->
+  <header id="inicio">  <div class="encabezado">
+    <h1>TODO SOBRE EL INTERNET</h1>
+    <p>Desde su historia hasta las nuevas tecnologías</p>
+  </div></header>
+
+  <div class="contenido-principal">
+    <!-- Panel lateral a la izquierda -->
+    <aside class="panel-lateral">
+      <h1>Bienvenid@ a mi página web</h1>
+      <p>Aquí encontrarás información sobre el Internet:</p>
+      <nav>
+        <ul>
+          <li><a href="#historia-evolucion">Historia y evolución</a></li>
+          <li><a href="#estructura-componentes">Estructura y componentes</a></li>
+          <li><a href="#servicios-aplicaciones">Servicios y aplicaciones</a></li>
+          <li><a href="#seguridad">Seguridad</a></li>
+          <li><a href="#nuevas-tecnologias">Nuevas tecnologías emergentes</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Contenido principal a la derecha -->
+    <main>
+<section id="historia-evolucion">
+  <h2>1. Historia y evolución del Internet</h2>
+  <p>El <a href="https://concepto.de/internet/">Internet</a> nació como un proyecto militar, se expandió por el ámbito académico y, gracias a desarrollos como la <a href="https://www.significados.com/web/">Web,</a> los navegadores, los buscadores y el correo electrónico, se transformó en una red global fundamental en la vida moderna.</p>
+  <img src="https://www.mastermarketing-valencia.com/marketing-digital/wp-content/uploads/sites/1/2019/08/Infografia.-Historia-y-evoluci%C3%B3n-de-internet.-Acontecimientos-m%C3%A1s-importantes.-768x432.jpg" alt="Evolución del Internet" class="imagen" />
+
+
+      <div class="carousel" role="region" aria-label="Carrusel de historia y evolución del Internet"  style="max-width:1000px; margin: 20px auto; border: 1px solid #ccc; padding: 20px; border-radius: 10px; background: #fff;">
+      <div class="carousel-slide active" role="group" aria-roledescription="slide" aria-label="1971 - Conexión y ARPANET">
+        
+      <strong>1969 - Conexión y ARPANET</strong>
+        <p>Se realiza la primera conexión entre los ordenadores Stanford y UCLA. Nace ARPANET, creada por el Departamento de Defensa de los EE. UU. para establecer un nexo de comunicación entre distintos organismos gubernamentales.</p>
+    </div>   
+    <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="1971 - Primer email y virus">
+      <strong>1971 - Primer email y virus</strong>
+      <p>Ray Tomlinson envía el primer email de la historia. Ya hay 23 computadoras conectadas a ARPANET. También aparece el primer virus: Creeper.</p>
+    </div>
+    <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="1974 - Internet">
+      <strong>1974 - Internet</strong>
+      <p>Bob Khan y Vint Cerf usan por primera vez la palabra "Internet" en una transmisión de control de protocolo.</p>
+    </div>
+    <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="1976 - Ethernet">
+      <strong>1976 - Ethernet</strong>
+      <p>Metcalfe y Boggs describen Ethernet en un artículo publicado en 1976, incluyendo el uso de repetidores para ampliar el alcance de la red.</p>
+    </div>
+    <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="1978 - SPAM">
+      <strong>1978 - SPAM</strong>
+      <p>Se envía el primer mensaje no solicitado (SPAM) a más de 600 usuarios conectados a ARPANET.</p>
+    </div>
+    <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="1982 - Emoticon">
+      <strong>1982 - Emoticon</strong>
+      <p>Scott Fahlman propone el uso de emoticonos como :-) para expresar emociones. Kevin Mackenzie ya había mencionado la idea anteriormente.</p>
+    </div>
+    <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="1982 - TCP/IP">
+      <strong>1982 - TCP/IP</strong>
+      <p>Se introducen obligatoriamente los protocolos TCP/IP en todos los ordenadores conectados a ARPANET.</p>
+    </div>
+    <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="1982 - DOS">
+      <strong>1982 - DOS</strong>
+      <p>DOS (Disk Operating System) se convierte en el primer sistema operativo popular para computadoras IBM PC con procesadores Intel 8086 y 8088 de 16 bits.</p>
+    </div>
+    <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="1986 - IBM PC1">
+      <strong>1986 - IBM PC1</strong>
+      <p>IBM lanza el primer microcomputador de escritorio, el IBM 5100, un sistema completo con monitor, teclado y almacenamiento de datos integrado en una sola carcasa.</p>
+    </div>
+    <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="1991 - Primera página web">
+      <strong>1991 - Primera página web</strong>
+      <p>Tim Berners-Lee crea la primera página web desde el CERN. Su propósito era explicar qué era la World Wide Web y cómo acceder a ella mediante navegadores.</p>
+    </div>
+    <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="1995 - PHP">
+      <strong>1995 - PHP</strong>
+      <p>Se lanza PHP, un lenguaje de programación de propósito general orientado al desarrollo web. Con el tiempo ha evolucionado para incluir interfaz de línea de comandos y soporte para aplicaciones gráficas.</p>
+    </div>
+    <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="1995 - Windows 95">
+      <strong>1995 - Windows 95</strong>
+      <p>El 24 de agosto de 1995, Microsoft lanzó Windows 95, una versión nueva para los consumidores. Se realizaron grandes cambios en la interfaz de usuario y se introdujo la multitarea preemptiva.</p>
+    </div>
+    <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="1995 - Internet Explorer">
+      <strong>1995 - Internet Explorer</strong>
+      <p>Microsoft lanza Internet Explorer. Netscape desarrolla los protocolos SSL que permitirían transacciones de capital seguras.</p>
+    </div>
+    <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="1998 - Google">
+      <strong>1998 - Google</strong>
+      <p>Google se convierte en una compañía subsidiaria de Alphabet Inc., especializada en productos y servicios relacionados con Internet, software, dispositivos electrónicos y otras tecnologías.</p>
+    </div>
+    <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="1999 - Bluetooth">
+      <strong>1999 - Bluetooth</strong>
+      <p>Se lanza al mercado la tecnología Bluetooth, que permite la transmisión de voz y datos entre dispositivos mediante radiofrecuencia.</p>
+    </div>
+    <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="2000 - ILOVEYOU">
+      <strong>2000 - ILOVEYOU</strong>
+      <p>El virus ILOVEYOU fue el primer virus masivo, afectando a cerca de 50 millones de usuarios.</p>
+    </div>
+    <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="2001 - Wikipedia">
+      <strong>2001 - Wikipedia</strong>
+      <p>Se lanza Wikipedia, convirtiéndose en la mayor enciclopedia colectiva en línea.</p>
+    </div>
+    <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="2003-2004 - Redes sociales">
+      <strong>2003-2004 - Redes sociales</strong>
+      <p>Se lanzan al mercado Safari, Myspace, LinkedIn, Skype, Wordpress e iTunes Store.</p>
+      <p>Se lanzan Gmail, Facebook y Vimeo.</p>
+    </div>
+    <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="2005 - YouTube">
+      <strong>2005 - YouTube</strong>
+      <p>Lanzamiento de YouTube, la popular plataforma de videos en línea.</p>
+    </div>
+    <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="2008 - Google Chrome">
+      <strong>2008 - Google Chrome</strong>
+      <p>Se lanza el navegador Chrome de Google. También nace Groupon, la primera web de compra colectiva.</p>
+    </div>
+    <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="2012 - La nube">
+      <strong>2012 - <a href="https://www.cloudflare.com/es-es/learning/cloud/what-is-the-cloud/">La nube</a></strong>
+      <p>El uso de la nube se populariza, surgen nuevas aplicaciones y crece significativamente la cantidad de usuarios de esta tecnología.</p>
+    </div>
+    <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="2017 - Reconocimiento facial">
+      <strong>2017 - Reconocimiento facial</strong>
+      <p>Se comienza a utilizar el reconocimiento facial para pagos y transacciones bancarias en línea.</p>
+    </div>
+    <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="2018 - Red móvil 5G">
+      <strong>2018 - Red móvil 5G</strong>
+      <p>Aparece la tecnología 5G, que permite conexiones móviles ultrarrápidas. Es clave para el desarrollo del Internet de las cosas, realidad aumentada y entretenimiento.</p>
+    </div>
+  
+    <div class="carousel-controls" style="text-align:center; margin-top: 20px;">
+      <button id="prevBtn" aria-label="Evento anterior" style="background:#2980b9; border:none; color:#fff; padding:10px 18px; margin-right: 12px; border-radius:6px; cursor:pointer;">Anterior</button>
+      <button id="nextBtn" aria-label="Evento siguiente" style="background:#2980b9; border:none; color:#fff; padding:10px 18px; border-radius:6px; cursor:pointer;">Siguiente</button>
+    
+    
+    </div>
+      
+  </div>
+  </ul>
+<a href="https://www.mastermarketing-valencia.com/marketing-digital/blog/internet-historia-evolucion/">Historia internet</a>
+<a href="https://www.timetoast.com/timelines/evolucion-e-historia-del-internet-1969-2022">Evolución internet</a>
+</section>
+
+</section>
+
+
+<section id="estructura-componentes">
+      <h2>2. Estructura y componentes de Internet</h2>
+      <h4>Estructura:</h4>
+    
+
+  <p>El <a href="https://concepto.de/internet/">Internet</a> es una red global de redes interconectadas que permite el intercambio de datos entre dispositivos en todo el mundo. Su estructura está formada por varios 
+    componentes clave que colaboran para que la comunicación digital funcione eficientemente.</p>
+
+  <ul>
+    <li>
+      <strong>Usuarios y Dispositivos Finales:</strong> Acceden a Internet mediante dispositivos como computadoras, smartphones o tablets, conocidos como hosts o clientes.
+    </li>
+    <li>
+      <strong>Proveedores de Servicios de Internet (ISP):</strong> Empresas que brindan acceso a Internet, como Telefónica, AT&T o Vodafone. También asignan direcciones IP.
+    </li>
+    <li>
+      <strong>Direcciones IP:</strong> Identificadores únicos (IPv4 o IPv6) que permiten a los dispositivos enviar y recibir datos.
+    </li>
+    <li>
+      <strong>Ruteadores y Conmutadores (Routers y Switches):</strong> Dispositivos que enrutan y dirigen los datos por la red para que lleguen a su destino correcto.
+    </li>
+    <li>
+      <strong><a href="https://www.ticportal.es/glosario-tic/servidores">Servidores:</a></strong> Computadoras especializadas que almacenan y entregan contenidos como páginas web, correos o archivos.
+    </li>
+    <li>
+      <strong>Protocolos de Comunicación:</strong> Conjunto de reglas para el intercambio de información. Ejemplos:
+      <ul>
+        <li><strong>TCP/IP:</strong> Protocolo base de la red.</li>
+        <li><strong>HTTP/HTTPS:</strong> Para páginas web.</li>
+        <li><strong>SMTP, POP3, IMAP:</strong> Para correo electrónico.</li>
+        <li><strong>FTP:</strong> Para transferencia de archivos.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Sistema de Nombres de Dominio (DNS):</strong> Traduce nombres de dominio como <em>www.google.com</em> a direcciones IP.
+    </li>
+    <li>
+      <strong>Infraestructura Física:</strong> Incluye cables submarinos, centros de datos, antenas, servidores y satélites que conectan al mundo.
+    </li>
+  </ul>
+      <img src="https://socium.cr/wp-content/uploads/2024/08/anatomia-de-internet-648x1024.jpg" class="imagen" />
+      <h4> Componentes clave del internet:</h4>
+        <ul>
+    <li>
+      <strong>Proveedores de Servicios de Internet (ISP):</strong> Empresas que proporcionan acceso a Internet a usuarios y organizaciones.
+    </li>
+    <li>
+      <strong>Direcciones IP:</strong> Identificadores únicos para cada dispositivo conectado a Internet, necesarios para el envío y recepción de datos.
+    </li>
+    <li>
+      <strong>DNS (Domain Name System):</strong> Sistema que traduce nombres de dominio legibles por humanos (como www.example.com) a direcciones IP.
+    </li>
+    <li>
+      <strong><a href="https://concepto.de/protocolo/">Protocolos:</a></strong> Reglas y estándares que gobiernan la transmisión de datos, como HTTP/HTTPS (para la web), SMTP (para el correo electrónico) y FTP (para la transferencia de archivos).
+    </li>
+  </ul>
+<a href="https://sites.google.com/view/intinformtica/internet-componentes-y-servicios?">Componentes del internet</a>
+<a href="https://sites.google.com/view/intinformtica/internet-componentes-y-servicios?">Estructura del internet</a>
+</section>
+ 
+
+    <section id="servicios-aplicaciones">
+      <h2>3. Servicios y aplicaciones de Internet</h2>
+      <p>Los servicios y aplicaciones del Internet son todas aquellas funciones y herramientas que se utilizan mediante la red para facilitar la comunicación, el acceso a la información, el entretenimiento, el trabajo, entre otros aspectos de la vida diaria.</p>
+      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmCAY-fXgKMXwysjRherPj7kaqLyKVZrM22OJlCRdrchHLHJ0YU8iItBqB9aiEkeav-TAGuHpAXRsUjACPy_I383odtF9_5ro-n_ouNjJ1eDGl0ob2GDymSKZX9j_piUhyQBWY4qt6nI8S/s1600/servinternet_l.png" class="imagen" />
+  <ul>
+  <li><strong>Web:</strong> Acceso a sitios y páginas web a través de navegadores.</li>
+  <li><strong>Correo Electrónico:</strong> Envío y recepción de mensajes electrónicos.</li>
+  <li><strong>Redes Sociales:</strong> Plataformas para la interacción y el intercambio de información entre usuarios.</li>
+  <li><strong>Streaming:</strong> Transmisión de audio y video en tiempo real.</li>
+  <li>
+    <strong>Videollamadas y conferencias:</strong>
+    Comunicación visual remota (Zoom, Google Meet, Microsoft Teams).
+  </li>
+  <li>
+    <strong>Servicios en la nube:</strong>
+    Almacenamiento y acceso a archivos desde Internet (Google Drive, Dropbox).
+  </li>
+  <li>
+    <strong>E-commerce:</strong>
+    Compras y ventas por Internet (Amazon, Mercado Libre).
+  </li>
+  <li>
+    <strong>Banca en línea:</strong>
+    Consultas, pagos y transferencias bancarias por la red.
+  </li>
+  <li>
+    <strong>Educación en línea:</strong>
+    Plataformas para estudiar a distancia (Moodle, Coursera, Khan Academy).
+  </li>
+</ul>
+<a href="https://sites.google.com/view/intinformtica/internet-componentes-y-servicios?">Servicios y aplicaciones</a>
+
+    </section>
+
+    <section id="seguridad">
+      <h2>4. Seguridad en Internet</h2>
+      <p>La seguridad en Internet se refiere a la protección de la información y la privacidad de los usuarios mientras navegan por la red. 
+        Implica el uso de medidas y tecnologías para evitar accesos no autorizados, ataques cibernéticos, robo de identidad y otros riesgos asociados al uso de dispositivos conectados a Internet.</p>
+   <h4>Recomendaciones:</h4>
+        <ul>
+  <li><strong>Evitar redes <a href="https://concepto.de/wifi/">Wi-Fi</a> públicas no seguras:</strong> Usar VPN si es necesario conectarse para proteger la información.</li>
+  <li><strong>Usar contraseñas fuertes y únicas:</strong> Combinar letras, números y símbolos sin repetir contraseñas en distintas cuentas.</li>
+  <li><strong>Cuidado con correos sospechosos:</strong> No hacer clic en enlaces de remitentes desconocidos para evitar fraudes.</li>
+  <li><strong>Configurar privacidad en redes sociales:</strong> Ajustar quién puede ver tu información para proteger tu identidad.</li>
+  <li><strong>Mantener software actualizado:</strong> Instalar actualizaciones para corregir fallos de seguridad y prevenir ataques.</li>
+</ul>
+      <img src="https://cdn-icons-png.flaticon.com/512/5690/5690867.png" class="imagen" />
+      <h4>Peligros del Internet:</h4>
+        <ul>
+          <li><strong>Phishing y Fraudes Financieros:</strong> Técnicas de ingeniería social para engañar a usuarios y obtener información confidencial.</li>
+          <li><strong>Ransomware Avanzado:</strong> Uso de técnicas como el "envenenamiento de datos" y criptografía post-cuántica para dificultar la recuperación de información.</li>
+          <li><strong>Amenazas en Dispositivos Móviles:</strong> Aumento de ataques a dispositivos Android a través de apps como WhatsApp y Telegram.</li>
+          <li><strong>Ataques a la Internet de las Cosas (IoT):</strong> Dispositivos como routers y asistentes inteligentes son vulnerables a ataques.</li>
+          <li><strong>Amenazas en el Metaverso:</strong> Riesgos de fraude y manipulación en plataformas digitales emergentes.</li>
+        </ul>
+<a href="https://www.kaspersky.es/resource-center/definitions/what-is-internet-security?srsltid=AfmBOoo2K2kt7i-KEyT3-iu77w6ME-14-HG1BXQYvgOdxc9sX3pa99RN
+">Seguridad del internet</a>
+    </section>
+
+    <section id="nuevas-tecnologias">
+      <h2>5. Nuevas tecnologías emergentes</h2>
+       <img src="https://www.servnet.mx/hs-fs/hubfs/Blog/Blog_Articulos/Blog_Art%C3%ADculos/Blog_Articulos_2022_Noviembre/Blog_Articulos_2022_Noviembre_Art11_TECE/Automatizacion-de-procesos-y-servicios-de-tecnologias-emergentes.png?width=900&height=500&name=Automatizacion-de-procesos-y-servicios-de-tecnologias-emergentes.png" class="imagen" /> 
+      <p>Las nuevas tecnologías emergentes son innovaciones científicas y técnicas que están en desarrollo o en sus primeras etapas de adopción, y que tienen el potencial de transformar significativamente la sociedad, la economía y la forma en que vivimos y trabajamos, entre estas nuevas tecnologías tenemos:</p>
+          <li>
+      <strong><a href="https://cloud.google.com/learn/what-is-artificial-intelligence?hl=es-419">Inteligencia Artificial</a> Agente (Agentic AI):</strong>
+      Sistemas autónomos que toman decisiones y actúan por sí mismos para alcanzar objetivos definidos. Se espera que desempeñen un papel importante en entornos laborales.
+    </li>
+    <li>
+      <strong>Computación Cuántica:</strong>
+      Ordenadores cuánticos capaces de realizar millones de operaciones a velocidades superiores a las de los sistemas tradicionales, con aplicaciones en ciencia, medicina y seguridad.
+    </li>
+    <li>
+      <strong>Redes 6G:</strong>
+      Tecnología móvil de próxima generación que ofrecerá velocidades ultraaltas y casi sin latencia, mejorando la conectividad global.
+    </li>
+    <li>
+      <strong>Realidad Extendida (XR):</strong>
+      Combinación de realidad virtual, aumentada y mixta para crear experiencias inmersivas aplicadas en educación, salud y entretenimiento.
+    </li>
+    <li>
+      <strong>Modelos de Lenguaje Pequeños (SLM):</strong>
+      Inteligencias artificiales compactas diseñadas para ejecutarse en dispositivos con pocos recursos, ideales para aplicaciones locales.
+    </li>
+    <li>
+      <strong>Internet de las Cosas (IoT) Masivo:</strong>
+      Integración masiva de dispositivos conectados que recopilan y comparten datos para optimizar hogares, ciudades y procesos industriales.
+    </li>
+    <li>
+      <strong>Blockchain y Web3:</strong>
+      Tecnologías que permiten crear aplicaciones descentralizadas, aumentando la seguridad, transparencia y control del usuario en la web.
+    </li>
+        </ul>
+    <a href="https://technologyreview.es/10-tecnologias-emergentes-2025/?">Nuevas tecnologías emergentes</a>
+    </section>
+
+    <section id="interactividad">
+      <h2>Participa</h2>
+      <form>
+        <label for="comentario">¿Qué opinas sobre el futuro del Internet?</label><br />
+        <textarea id="comentario" name="comentario" rows="4" cols="50" placeholder="Escribe tu opinión..."></textarea><br />
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+      <!-- Referencias -->
+      <section id="referencias">
+        <h2>Fuentes y Referencias</h2>
+        <ul>
+          <li><a href="https://www.mastermarketing-valencia.com/marketing-digital/blog/internet-historia-evolucion/">Historia internet</a></li>
+          <li><a href="https://www.timetoast.com/timelines/evolucion-e-historia-del-internet-1969-2022">Evolución internet</a></li>
+          <li><a href="https://sites.google.com/view/intinformtica/internet-componentes-y-servicios?">Componentes del internet</a></li>
+        </ul>
+      </section>
+    </main>
+  </div>
+  </div>
+
+  <a href="#inicio" class="boton-inicio" aria-label="Volver al inicio">⬆️</a>
+
+  <footer>
+    <p>© 2025 Página Web | Sitio educativo | Elaborado por: Maritzel Calleja Mosso 401 Ingeniería en Computación</p>
+  </footer>
+
+  <script>
+      const secciones = document.querySelectorAll("main section[id]");
+  const enlaces = document.querySelectorAll(".panel-lateral nav a");
+
+  window.addEventListener("scroll", () => {
+    let index = secciones.length;
+
+    while (--index >= 0 && window.scrollY + 150 < secciones[index].offsetTop) {}
+
+    enlaces.forEach((link) => link.classList.remove("active"));
+
+    if (index >= 0) {
+      const id = secciones[index].id;
+      const enlaceActivo = document.querySelector(`.panel-lateral nav a[href="#${id}"]`);
+      if (enlaceActivo) {
+        enlaceActivo.classList.add("active");
+      }
+    }
+  });
+  const slides = document.querySelectorAll('#historia-evolucion .carousel-slide');
+  let currentIndex = 0;
+
+  function showSlide(index) {
+    slides.forEach((slide, i) => {
+      slide.classList.toggle('active', i === index);
+    });
+  }
+
+  document.getElementById('prevBtn').addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+    showSlide(currentIndex);
+  });
+
+  document.getElementById('nextBtn').addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % slides.length;
+    showSlide(currentIndex);
+  });
+</script>
+
+<style>
+  #historia-evolucion .carousel-slide {
+    display: none;
+  }
+  #historia-evolucion .carousel-slide.active {
+    display: block;
+  }
+</style>
+</body>
+</html>
